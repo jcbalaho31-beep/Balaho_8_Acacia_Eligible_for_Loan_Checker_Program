@@ -1,0 +1,11 @@
+# This program checks if the user is eligible for a loan based on required credit score (at least 700), annual income (at least $30,000), and years of stable employment (at least 2 years).
+# 1st, the program asks the user for the required information.
+credit_score = int(input("Enter your credit score: "))
+annual_income = int(input("Enter your annual income: $"))
+stable_job_years = int(input("How many years have you been in your current job? "))
+
+# After entering all required information, the program then checks if all entered inputs meet the required criteria for loan approval and then responds if the loan is approved or denied.
+if credit_score >= 700 and annual_income >= 30000 and stable_job_years >= 2:
+    print("Loan Approved")
+else:
+    print("Loan Denied")
